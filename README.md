@@ -2,7 +2,7 @@
 
 ![GitHub Logo](/images/logo.png)
 
-MyPasswordMananger is a free, open-source, portable and easy to use password manager.
+**MyPasswordMananger** is a free, open-source, portable and easy to use password manager.
 MyPM is written in Java and uses JavaFX as front-end.
 
 ## Images:
@@ -19,14 +19,14 @@ MyPM is written in Java and uses JavaFX as front-end.
 ![GitHub Logo](/images/about.png)
 
 ## Download:
-* Java .jar
+* [Java .jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM.jar)
 * Windows .exe
 * MacOS .app
 
 ## How to execute:
 * Download .jar file
-* sudo chmod +x MyPM.jar
-* java -jar MyPM.jar
+* <code>sudo chmod +x MyPM.jar</code>
+* <code>java -jar MyPM.jar </code>
 
 ## Features:
 * Manage credentials
@@ -57,8 +57,8 @@ MyPM uses an AES-256 encryption for saving credentials on file + PBKDF2 as key d
 Apache 2.0
 
 ## Notes:
-* This is a personal project so there are no guarantees on security and stability side.
-* Feel free to fork it and tailor it to your needs.
+* This is a personal project so there are no guarantees on security and stability side
+* Feel free to fork it and tailor it to your needs
 * All contributions are appreciated :)
 
 ## Credits:
