@@ -1,0 +1,289 @@
+/* Application CSS - Red */
+
+
+/* Primary color */
+
+.root {
+	-fx-accent: #DB5B5B;
+	-fx-focus-color: #DB5B5B;
+}
+
+
+/* ScrollPane CSS */
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+
+/* TextField CSS */
+
+.text-field {
+   -fx-accent: #DB5B5B;
+}
+
+.jfx-text-field {
+    -jfx-focus-color: #DB5B5B;
+}
+
+
+/* PasswordField CSS */
+
+.jfx-password-field {
+	-jfx-focus-color: #DB5B5B;
+}
+
+
+/* Round button CSS */
+
+#round_button {
+	-fx-background-color: #DB5B5B;
+    -fx-background-radius: 40;
+    -fx-background-insets: 0;
+}
+
+#round_button:hover {
+	-fx-background-color: #CC5454;
+}
+
+
+/* Green button CSS */
+
+#green_button {
+	-fx-background-color: #2EB398;
+}
+
+#green_button:hover {
+	-fx-background-color: #2BA68D;
+}
+
+
+/* Blue button CSS */
+
+#blue_button {
+	-fx-background-color: #5895DC;
+}
+
+#blue_button:hover {
+	-fx-background-color: #538CCF;
+}
+
+
+/* Red button CSS */
+
+#red_button {
+	-fx-background-color: #DB5B5B;
+}
+
+#red_button:hover {
+	-fx-background-color: #CC5454;
+}
+
+
+/* Menu bar CSS */
+
+.menu .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+
+/* ListView CSS */
+
+.list-cell {
+	-fx-cell-size: 35px;
+	-fx-background-color:transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 13px;
+}
+
+.list-view .list-cell:selected:odd,
+.list-view .list-cell:selected:even {
+    -fx-text-fill: white;
+    -fx-background-color:#DB5B5B;
+}
+
+.list-view .list-cell:selected:odd:hover,
+.list-view .list-cell:selected:even:hover {
+    -fx-text-fill: white;
+    -fx-background-color:#CC5454;
+}
+
+.list-view .list-cell:odd:hover,
+.list-view .list-cell:even:hover {
+    -fx-text-fill: white;
+    -fx-background-color:#3B4548;
+}
+
+
+/* ScrollBar CSS */
+
+.scroll-bar{
+ -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+ -fx-background-color: transparent;
+ -fx-border-color:transparent;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+ -fx-background-color: transparent;
+ -fx-background-insets: 0;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .thumb {
+ -fx-background-color: rgb(220,220,220);
+ -fx-background-insets: 4 0 4 0;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .thumb {
+ -fx-background-color: rgb(220,220,220);
+ -fx-background-insets: 0 4 0 4;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+ -fx-background-color: rgb(200,200,200);
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+ -fx-background-color: rgb(200,200,200);
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+ -fx-background-color:transparent;
+ -fx-background-radius: 2em;
+ -fx-padding: 5;
+}
+
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+ -fx-background-color:transparent;
+ -fx-background-radius: 2em;
+ -fx-padding: 5;
+}
+
+.scroll-bar:horizontal .increment-arrow {
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-background-color: rgb(220,220,220);
+ -fx-padding: 0.25em;
+ -fx-rotate: -90;
+}
+
+.scroll-bar:vertical .increment-arrow {
+ -fx-background-color: rgb(220,220,220);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: 0;
+}
+
+.scroll-bar:horizontal .decrement-arrow {
+ -fx-background-color: rgb(220,220,220);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: 90;
+}
+
+.scroll-bar:vertical .decrement-arrow {
+ -fx-background-color: rgb(220,220,220);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: -180;
+}
+
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+ -fx-background-color: transparent,rgb(200,200,200),rgb(200,200,200);
+}
+
+
+/* TableView CSS */
+
+.table-view{
+   -fx-background-color: white;
+}
+
+.table-view:focused{
+    -fx-background-color: white;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #323C3F;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+  -fx-background-color: #323C3F;
+  -fx-padding: 1em;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-row-cell {
+    -fx-cell-size: 35px;
+}
+
+.table-row-cell:even{
+    -fx-background-color: white;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #F8F8F8;
+}
+
+.table-row-cell:even{
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+	-fx-text-fill: white;
+    -fx-background-color:#DB5B5B;
+}
+
+
+/* Password check-box CSS */
+
+#password_check_box>.box {
+  -fx-background-insets: 0;
+  -fx-background-radius: 0;
+  -fx-background-color: transparent;
+  -fx-padding: 15px;
+}
+
+#password_check_box>.box>.mark {
+  -fx-background-image: url("/resource/invisible.png");
+  -fx-background-position: center;
+  -fx-background-repeat: stretch;
+  -fx-shape: none;
+  -fx-padding: 15px;
+}
+
+#password_check_box:selected>.box>.mark{
+  -fx-background-color: transparent;
+  -fx-background-image: url("/resource/visible.png");
+  -fx-padding: 15px;
+}
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginWindowController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="350.0" prefWidth="300.0" spacing="30.0">
+         <children>
+            <Label alignment="CENTER" text="MyPasswordManager">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" text="Login" />
+            <ImageView fx:id="imageView" fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/green_logo_64*64.png" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#clearPasswordField" style="-fx-background-color: transparent;" text="X">
+               <graphic>
+                  <JFXPasswordField id="passwordField" fx:id="passwordField" alignment="CENTER" focusColor="#2eb398" labelFloat="true" onAction="#login" prefWidth="230.0" promptText="Master password">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" top="10.0" />
+                     </padding>
+                  </JFXPasswordField>
+               </graphic>
+            </Button>
+            <Label fx:id="wrongPasswordLabel" text="Wrong password or &#10;error decrypting file!" textAlignment="CENTER" textFill="#db5b5b" visible="false" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_RIGHT" prefWidth="300.0" spacing="10.0" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <JFXButton id="red_button" alignment="CENTER" minHeight="30.0" minWidth="70.0" onAction="#cancel" prefHeight="30.0" prefWidth="70.0" ripplerFill="#323c3f" text="Cancel" textAlignment="CENTER" textFill="WHITE" />
+            <JFXButton id="green_button" alignment="CENTER" minHeight="30.0" minWidth="70.0" onAction="#login" prefHeight="30.0" prefWidth="70.0" ripplerFill="#323c3f" text="Login" textAlignment="CENTER" textFill="WHITE" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

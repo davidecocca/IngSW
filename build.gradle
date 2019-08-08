@@ -1,0 +1,33 @@
+/*
+ * Gradle build file
+ */
+
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+
+}
+
+repositories {
+    // Use jcenter for resolving dependencies
+    jcenter()
+    
+    //Maven central repository
+    mavenCentral()
+   
+}
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+    
+    // Use JFoenix library for 'Google Material Design' style Java components
+    compile 'com.jfoenix:jfoenix:8.0.8'
+    
+    // Use Passay library for secure random password generation
+    compile group: 'org.passay', name: 'passay', version: '1.4.0'
+    
+    // Use Apache POI library for Excel integration
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.0'
+}
