@@ -6,27 +6,33 @@
 MyPM is written in Java and uses JavaFX as front-end.
 
 ## Images:
-![GitHub Logo](/images/firstStart.png)
-
-![GitHub Logo](/images/login.png)
-
 ![GitHub Logo](/images/splitView.png)
 
 ![GitHub Logo](/images/tableView.png)
 
-![GitHub Logo](/images/password.png)
-
-![GitHub Logo](/images/about.png)
+You can find other images in *MyPasswordManager/images*
 
 ## Download:
-* [Java .jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM.jar)
-* Windows .exe
+* [Java .jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar)
+* [Windows .exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe)
 * MacOS .app
 
 ## How to execute:
-* Download .jar file
+
+### Windows
+* Install JRE 8
+* Download [MyPM_v1.0.exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file or [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe) file
+* Double-click on the icon
+
+### Linux
+* Install OpenJDK and OpenJFX
+* Download [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
+* Go to the download folder and open a new terminal window
 * <code>sudo chmod +x MyPM.jar</code>
 * <code>java -jar MyPM.jar </code>
+
+### MacOS
+*Work in progress*
 
 ## Features:
 * Manage credentials
