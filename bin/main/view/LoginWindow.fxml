@@ -24,7 +24,7 @@
             <Label alignment="CENTER" text="Login" />
             <ImageView fx:id="imageView" fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../resource/green_logo_64*64.png" />
+                  <Image url="@../resource/green_logo_64x64.png" />
                </image>
             </ImageView>
             <Button mnemonicParsing="false" onAction="#clearPasswordField" style="-fx-background-color: transparent;" text="X">

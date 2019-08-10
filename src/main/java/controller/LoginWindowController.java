@@ -75,13 +75,13 @@ public class LoginWindowController implements Initializable {
 
 		//Set logo image
 		if (colorScheme == 0) {
-			imageView.setImage(new Image("/resource/green_logo_64*64.png"));
+			imageView.setImage(new Image("/resource/green_logo_64x64.png"));
 		}
 		else if (colorScheme == 1) {
-			imageView.setImage(new Image("/resource/blue_logo_64*64.png"));
+			imageView.setImage(new Image("/resource/blue_logo_64x64.png"));
 		}
 		else {
-			imageView.setImage(new Image("/resource/red_logo_64*64.png"));
+			imageView.setImage(new Image("/resource/red_logo_64x64.png"));
 		}
 	}
 

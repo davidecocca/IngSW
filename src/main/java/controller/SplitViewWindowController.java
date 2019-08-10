@@ -802,13 +802,13 @@ public class SplitViewWindowController implements Initializable {
 
 		//Set application logo color
 		if (colorScheme == 0) {
-			imageView.setImage(new Image("/resource/green_logo_156*156.png"));
+			imageView.setImage(new Image("/resource/green_logo_156x156.png"));
 		}
 		else if (colorScheme == 1) {
-			imageView.setImage(new Image("/resource/blue_logo_156*156.png"));
+			imageView.setImage(new Image("/resource/blue_logo_156x156.png"));
 		}
 		else {
-			imageView.setImage(new Image("/resource/red_logo_156*156.png"));
+			imageView.setImage(new Image("/resource/red_logo_156x156.png"));
 		}
 
 		//Blocks events from being delivered to any other application window

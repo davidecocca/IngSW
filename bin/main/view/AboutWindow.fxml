@@ -12,7 +12,7 @@
          <children>
             <ImageView fx:id="imageView" fitHeight="156.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../resource/green_logo_156*156.png" />
+                  <Image url="@../resource/green_logo_156x156.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" contentDisplay="CENTER" text="MyPasswordManager&#10;&#10;Version 1.0&#10;&#10;&#10;Developed by Davide Cocca&#10;&#10;Contact at:&#10;davidecocca@gmail.com&#10;&#10;&#10;@2019" textAlignment="CENTER" />
