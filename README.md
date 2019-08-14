@@ -20,19 +20,19 @@ You can find other images in *MyPasswordManager/images*
 ## How to execute:
 
 ### Windows
-* Install JRE 8
+* Install Oracle JRE 8
 * Download [MyPM_v1.0.exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe) file or [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
 * Double-click on the icon
 
 ### Linux
-* Install OpenJDK and OpenJFX
+* Install Oracle JRE 8
 * Download [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
 * Go to the download folder and open a new terminal window
-* <code>sudo chmod +x MyPM_v1.0.jar</code>
+* <code>sudo chmod +x MyPM_v1.0.jar</code> *(you need to do this only the first time)*
 * <code>java -jar MyPM_v1.0.jar </code>
 
 ### MacOS
-* Install JRE 8
+* Install Oracle JRE 8
 * Download [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
 * Double-click on the icon
 
