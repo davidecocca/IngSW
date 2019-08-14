@@ -15,13 +15,13 @@ You can find other images in *MyPasswordManager/images*
 ## Download:
 * [Java .jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar)
 * [Windows .exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe)
-* MacOS .app
+* MacOS .app *(Work in progress)*
 
 ## How to execute:
 
 ### Windows
 * Install JRE 8
-* Download [MyPM_v1.0.exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file or [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe) file
+* Download [MyPM_v1.0.exe](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.exe) file or [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
 * Double-click on the icon
 
 ### Linux
@@ -32,7 +32,9 @@ You can find other images in *MyPasswordManager/images*
 * <code>java -jar MyPM.jar </code>
 
 ### MacOS
-*Work in progress*
+* Install JRE 8
+* Download [MyPM_v1.0.jar](https://github.com/davidecocca/MyPasswordManager/releases/download/v1.0/MyPM_v1.0.jar) file
+* Double-click on the icon
 
 ## Features:
 * Manage credentials
