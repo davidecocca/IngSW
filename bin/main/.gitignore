@@ -1,3 +1,5 @@
-/resource/
-/view/
 /controller/
+/model/
+/resource/
+/util/
+/view/

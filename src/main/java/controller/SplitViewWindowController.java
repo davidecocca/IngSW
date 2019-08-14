@@ -451,7 +451,8 @@ public class SplitViewWindowController implements Initializable {
 		cancelButton.setVisible(true);
 		//Enable generate password button
 		generatePasswordButton.setDisable(false);
-		//Make username, password and category fields editable
+		//Make site, username, password and category fields editable
+		siteField.setEditable(true);
 		usernameField.setEditable(true);
 		passwordField.setEditable(true);
 		categoryField.setEditable(true);
@@ -552,7 +553,8 @@ public class SplitViewWindowController implements Initializable {
 		cancelButton.setVisible(false);
 		//Disable 'generate password' button
 		generatePasswordButton.setDisable(true);
-		//Make username, password and category fields not editable
+		//Make site, username, password and category fields not editable
+		siteField.setEditable(false);
 		usernameField.setEditable(false);
 		passwordField.setEditable(false);
 		categoryField.setEditable(false);
